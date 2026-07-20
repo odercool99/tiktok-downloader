@@ -1,0 +1,15 @@
+{
+  "name": "tiktok-downloader",
+  "version": "1.0.0",
+  "description": "TikTok HD Video Downloader - Download TikTok videos ohne Qualitätsverlust",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "archiver": "^8.0.0",
+    "axios": "^1.6.0",
+    "express": "^4.18.2"
+  }
+}
